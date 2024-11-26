@@ -1,0 +1,986 @@
+$date
+	Thu Jul 11 19:49:42 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Test $end
+$var wire 32 ! Result [31:0] $end
+$var reg 32 " Data1 [31:0] $end
+$var reg 32 # Data2 [31:0] $end
+$var reg 32 $ Data3 [31:0] $end
+$var reg 2 % Select [1:0] $end
+$scope module dut $end
+$var wire 32 & Alu_Result_M [31:0] $end
+$var wire 32 ' Result_WriteBack [31:0] $end
+$var wire 2 ( Select [1:0] $end
+$var wire 32 ) rd2 [31:0] $end
+$var wire 32 * Result [31:0] $end
+$scope module G1 $end
+$var wire 32 + Data1 [31:0] $end
+$var wire 32 , Data2 [31:0] $end
+$var wire 32 - Data3 [31:0] $end
+$var wire 2 . Select [1:0] $end
+$var wire 32 / Result [31:0] $end
+$scope module G1 $end
+$var wire 1 0 Data1 $end
+$var wire 1 1 Data2 $end
+$var wire 1 2 Data3 $end
+$var wire 1 3 Result $end
+$var wire 2 4 Select [1:0] $end
+$var wire 3 5 Connectors [2:0] $end
+$upscope $end
+$scope module G10 $end
+$var wire 1 6 Data1 $end
+$var wire 1 7 Data2 $end
+$var wire 1 8 Data3 $end
+$var wire 1 9 Result $end
+$var wire 2 : Select [1:0] $end
+$var wire 3 ; Connectors [2:0] $end
+$upscope $end
+$scope module G11 $end
+$var wire 1 < Data1 $end
+$var wire 1 = Data2 $end
+$var wire 1 > Data3 $end
+$var wire 1 ? Result $end
+$var wire 2 @ Select [1:0] $end
+$var wire 3 A Connectors [2:0] $end
+$upscope $end
+$scope module G12 $end
+$var wire 1 B Data1 $end
+$var wire 1 C Data2 $end
+$var wire 1 D Data3 $end
+$var wire 1 E Result $end
+$var wire 2 F Select [1:0] $end
+$var wire 3 G Connectors [2:0] $end
+$upscope $end
+$scope module G13 $end
+$var wire 1 H Data1 $end
+$var wire 1 I Data2 $end
+$var wire 1 J Data3 $end
+$var wire 1 K Result $end
+$var wire 2 L Select [1:0] $end
+$var wire 3 M Connectors [2:0] $end
+$upscope $end
+$scope module G14 $end
+$var wire 1 N Data1 $end
+$var wire 1 O Data2 $end
+$var wire 1 P Data3 $end
+$var wire 1 Q Result $end
+$var wire 2 R Select [1:0] $end
+$var wire 3 S Connectors [2:0] $end
+$upscope $end
+$scope module G15 $end
+$var wire 1 T Data1 $end
+$var wire 1 U Data2 $end
+$var wire 1 V Data3 $end
+$var wire 1 W Result $end
+$var wire 2 X Select [1:0] $end
+$var wire 3 Y Connectors [2:0] $end
+$upscope $end
+$scope module G16 $end
+$var wire 1 Z Data1 $end
+$var wire 1 [ Data2 $end
+$var wire 1 \ Data3 $end
+$var wire 1 ] Result $end
+$var wire 2 ^ Select [1:0] $end
+$var wire 3 _ Connectors [2:0] $end
+$upscope $end
+$scope module G17 $end
+$var wire 1 ` Data1 $end
+$var wire 1 a Data2 $end
+$var wire 1 b Data3 $end
+$var wire 1 c Result $end
+$var wire 2 d Select [1:0] $end
+$var wire 3 e Connectors [2:0] $end
+$upscope $end
+$scope module G18 $end
+$var wire 1 f Data1 $end
+$var wire 1 g Data2 $end
+$var wire 1 h Data3 $end
+$var wire 1 i Result $end
+$var wire 2 j Select [1:0] $end
+$var wire 3 k Connectors [2:0] $end
+$upscope $end
+$scope module G19 $end
+$var wire 1 l Data1 $end
+$var wire 1 m Data2 $end
+$var wire 1 n Data3 $end
+$var wire 1 o Result $end
+$var wire 2 p Select [1:0] $end
+$var wire 3 q Connectors [2:0] $end
+$upscope $end
+$scope module G2 $end
+$var wire 1 r Data1 $end
+$var wire 1 s Data2 $end
+$var wire 1 t Data3 $end
+$var wire 1 u Result $end
+$var wire 2 v Select [1:0] $end
+$var wire 3 w Connectors [2:0] $end
+$upscope $end
+$scope module G20 $end
+$var wire 1 x Data1 $end
+$var wire 1 y Data2 $end
+$var wire 1 z Data3 $end
+$var wire 1 { Result $end
+$var wire 2 | Select [1:0] $end
+$var wire 3 } Connectors [2:0] $end
+$upscope $end
+$scope module G21 $end
+$var wire 1 ~ Data1 $end
+$var wire 1 !" Data2 $end
+$var wire 1 "" Data3 $end
+$var wire 1 #" Result $end
+$var wire 2 $" Select [1:0] $end
+$var wire 3 %" Connectors [2:0] $end
+$upscope $end
+$scope module G22 $end
+$var wire 1 &" Data1 $end
+$var wire 1 '" Data2 $end
+$var wire 1 (" Data3 $end
+$var wire 1 )" Result $end
+$var wire 2 *" Select [1:0] $end
+$var wire 3 +" Connectors [2:0] $end
+$upscope $end
+$scope module G23 $end
+$var wire 1 ," Data1 $end
+$var wire 1 -" Data2 $end
+$var wire 1 ." Data3 $end
+$var wire 1 /" Result $end
+$var wire 2 0" Select [1:0] $end
+$var wire 3 1" Connectors [2:0] $end
+$upscope $end
+$scope module G24 $end
+$var wire 1 2" Data1 $end
+$var wire 1 3" Data2 $end
+$var wire 1 4" Data3 $end
+$var wire 1 5" Result $end
+$var wire 2 6" Select [1:0] $end
+$var wire 3 7" Connectors [2:0] $end
+$upscope $end
+$scope module G25 $end
+$var wire 1 8" Data1 $end
+$var wire 1 9" Data2 $end
+$var wire 1 :" Data3 $end
+$var wire 1 ;" Result $end
+$var wire 2 <" Select [1:0] $end
+$var wire 3 =" Connectors [2:0] $end
+$upscope $end
+$scope module G26 $end
+$var wire 1 >" Data1 $end
+$var wire 1 ?" Data2 $end
+$var wire 1 @" Data3 $end
+$var wire 1 A" Result $end
+$var wire 2 B" Select [1:0] $end
+$var wire 3 C" Connectors [2:0] $end
+$upscope $end
+$scope module G27 $end
+$var wire 1 D" Data1 $end
+$var wire 1 E" Data2 $end
+$var wire 1 F" Data3 $end
+$var wire 1 G" Result $end
+$var wire 2 H" Select [1:0] $end
+$var wire 3 I" Connectors [2:0] $end
+$upscope $end
+$scope module G28 $end
+$var wire 1 J" Data1 $end
+$var wire 1 K" Data2 $end
+$var wire 1 L" Data3 $end
+$var wire 1 M" Result $end
+$var wire 2 N" Select [1:0] $end
+$var wire 3 O" Connectors [2:0] $end
+$upscope $end
+$scope module G29 $end
+$var wire 1 P" Data1 $end
+$var wire 1 Q" Data2 $end
+$var wire 1 R" Data3 $end
+$var wire 1 S" Result $end
+$var wire 2 T" Select [1:0] $end
+$var wire 3 U" Connectors [2:0] $end
+$upscope $end
+$scope module G3 $end
+$var wire 1 V" Data1 $end
+$var wire 1 W" Data2 $end
+$var wire 1 X" Data3 $end
+$var wire 1 Y" Result $end
+$var wire 2 Z" Select [1:0] $end
+$var wire 3 [" Connectors [2:0] $end
+$upscope $end
+$scope module G30 $end
+$var wire 1 \" Data1 $end
+$var wire 1 ]" Data2 $end
+$var wire 1 ^" Data3 $end
+$var wire 1 _" Result $end
+$var wire 2 `" Select [1:0] $end
+$var wire 3 a" Connectors [2:0] $end
+$upscope $end
+$scope module G31 $end
+$var wire 1 b" Data1 $end
+$var wire 1 c" Data2 $end
+$var wire 1 d" Data3 $end
+$var wire 1 e" Result $end
+$var wire 2 f" Select [1:0] $end
+$var wire 3 g" Connectors [2:0] $end
+$upscope $end
+$scope module G32 $end
+$var wire 1 h" Data1 $end
+$var wire 1 i" Data2 $end
+$var wire 1 j" Data3 $end
+$var wire 1 k" Result $end
+$var wire 2 l" Select [1:0] $end
+$var wire 3 m" Connectors [2:0] $end
+$upscope $end
+$scope module G4 $end
+$var wire 1 n" Data1 $end
+$var wire 1 o" Data2 $end
+$var wire 1 p" Data3 $end
+$var wire 1 q" Result $end
+$var wire 2 r" Select [1:0] $end
+$var wire 3 s" Connectors [2:0] $end
+$upscope $end
+$scope module G5 $end
+$var wire 1 t" Data1 $end
+$var wire 1 u" Data2 $end
+$var wire 1 v" Data3 $end
+$var wire 1 w" Result $end
+$var wire 2 x" Select [1:0] $end
+$var wire 3 y" Connectors [2:0] $end
+$upscope $end
+$scope module G6 $end
+$var wire 1 z" Data1 $end
+$var wire 1 {" Data2 $end
+$var wire 1 |" Data3 $end
+$var wire 1 }" Result $end
+$var wire 2 ~" Select [1:0] $end
+$var wire 3 !# Connectors [2:0] $end
+$upscope $end
+$scope module G7 $end
+$var wire 1 "# Data1 $end
+$var wire 1 ## Data2 $end
+$var wire 1 $# Data3 $end
+$var wire 1 %# Result $end
+$var wire 2 &# Select [1:0] $end
+$var wire 3 '# Connectors [2:0] $end
+$upscope $end
+$scope module G8 $end
+$var wire 1 (# Data1 $end
+$var wire 1 )# Data2 $end
+$var wire 1 *# Data3 $end
+$var wire 1 +# Result $end
+$var wire 2 ,# Select [1:0] $end
+$var wire 3 -# Connectors [2:0] $end
+$upscope $end
+$scope module G9 $end
+$var wire 1 .# Data1 $end
+$var wire 1 /# Data2 $end
+$var wire 1 0# Data3 $end
+$var wire 1 1# Result $end
+$var wire 2 2# Select [1:0] $end
+$var wire 3 3# Connectors [2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx 3#
+bx 2#
+x1#
+x0#
+x/#
+x.#
+bx -#
+bx ,#
+x+#
+x*#
+x)#
+x(#
+bx '#
+bx &#
+x%#
+x$#
+x##
+x"#
+bx !#
+bx ~"
+x}"
+x|"
+x{"
+xz"
+bx y"
+bx x"
+xw"
+xv"
+xu"
+xt"
+bx s"
+bx r"
+xq"
+xp"
+xo"
+xn"
+bx m"
+bx l"
+xk"
+xj"
+xi"
+xh"
+bx g"
+bx f"
+xe"
+xd"
+xc"
+xb"
+bx a"
+bx `"
+x_"
+x^"
+x]"
+x\"
+bx ["
+bx Z"
+xY"
+xX"
+xW"
+xV"
+bx U"
+bx T"
+xS"
+xR"
+xQ"
+xP"
+bx O"
+bx N"
+xM"
+xL"
+xK"
+xJ"
+bx I"
+bx H"
+xG"
+xF"
+xE"
+xD"
+bx C"
+bx B"
+xA"
+x@"
+x?"
+x>"
+bx ="
+bx <"
+x;"
+x:"
+x9"
+x8"
+bx 7"
+bx 6"
+x5"
+x4"
+x3"
+x2"
+bx 1"
+bx 0"
+x/"
+x."
+x-"
+x,"
+bx +"
+bx *"
+x)"
+x("
+x'"
+x&"
+bx %"
+bx $"
+x#"
+x""
+x!"
+x~
+bx }
+bx |
+x{
+xz
+xy
+xx
+bx w
+bx v
+xu
+xt
+xs
+xr
+bx q
+bx p
+xo
+xn
+xm
+xl
+bx k
+bx j
+xi
+xh
+xg
+xf
+bx e
+bx d
+xc
+xb
+xa
+x`
+bx _
+bx ^
+x]
+x\
+x[
+xZ
+bx Y
+bx X
+xW
+xV
+xU
+xT
+bx S
+bx R
+xQ
+xP
+xO
+xN
+bx M
+bx L
+xK
+xJ
+xI
+xH
+bx G
+bx F
+xE
+xD
+xC
+xB
+bx A
+bx @
+x?
+x>
+x=
+x<
+bx ;
+bx :
+x9
+x8
+x7
+x6
+bx 5
+bx 4
+x3
+x2
+x1
+x0
+bx /
+bx .
+bx -
+bx ,
+bx +
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#10
+bx0x 5
+bx0x w
+bx0x ["
+bx0x s"
+bx0x y"
+bx0x !#
+bx0x '#
+bx0x -#
+bx0x 3#
+bx0x ;
+bx0x A
+bx0x G
+bx0x M
+bx0x S
+bx0x Y
+bx0x _
+b0x e
+b0x k
+b0x q
+b0x }
+b0x %"
+b0x +"
+b0x 1"
+b0x 7"
+b0x ="
+b0x C"
+b0x I"
+b0x O"
+b0x U"
+b0x a"
+b0x g"
+b0x m"
+12
+1t
+1X"
+1p"
+1v"
+1|"
+1$#
+1*#
+10#
+18
+1>
+1D
+1J
+1P
+1V
+1\
+0b
+0h
+0n
+0z
+0""
+0("
+0."
+04"
+0:"
+0@"
+0F"
+0L"
+0R"
+0^"
+0d"
+0j"
+01
+0s
+0W"
+0o"
+0u"
+0{"
+0##
+0)#
+0/#
+07
+0=
+0C
+0I
+0O
+0U
+0[
+0a
+0g
+0m
+0y
+0!"
+0'"
+0-"
+03"
+09"
+0?"
+0E"
+0K"
+0Q"
+0]"
+0c"
+0i"
+10
+1r
+1V"
+1n"
+1t"
+1z"
+1"#
+1(#
+1.#
+16
+1<
+1B
+1H
+1N
+1T
+1Z
+1`
+1f
+1l
+1x
+1~
+1&"
+1,"
+12"
+18"
+1>"
+1D"
+1J"
+1P"
+1\"
+1b"
+1h"
+b1111111111111111 $
+b1111111111111111 &
+b1111111111111111 -
+b0 #
+b0 '
+b0 ,
+b11111111111111111111111111111111 "
+b11111111111111111111111111111111 )
+b11111111111111111111111111111111 +
+#20
+13
+19
+1?
+1E
+1K
+1Q
+1W
+1]
+1c
+1i
+1o
+1u
+1{
+1#"
+1)"
+1/"
+15"
+1;"
+1A"
+1G"
+1M"
+1S"
+1Y"
+1_"
+1e"
+1k"
+1q"
+1w"
+1}"
+1%#
+1+#
+b11111111111111111111111111111111 !
+b11111111111111111111111111111111 *
+b11111111111111111111111111111111 /
+11#
+b1 e
+b1 k
+b1 q
+b1 }
+b1 %"
+b1 +"
+b1 1"
+b1 7"
+b1 ="
+b1 C"
+b1 I"
+b1 O"
+b1 U"
+b1 a"
+b1 g"
+b1 m"
+b1 5
+b1 ;
+b1 A
+b1 G
+b1 M
+b1 S
+b1 Y
+b1 _
+b1 w
+b1 ["
+b1 s"
+b1 y"
+b1 !#
+b1 '#
+b1 -#
+b1 3#
+b0 %
+b0 (
+b0 .
+b0 4
+b0 :
+b0 @
+b0 F
+b0 L
+b0 R
+b0 X
+b0 ^
+b0 d
+b0 j
+b0 p
+b0 v
+b0 |
+b0 $"
+b0 *"
+b0 0"
+b0 6"
+b0 <"
+b0 B"
+b0 H"
+b0 N"
+b0 T"
+b0 Z"
+b0 `"
+b0 f"
+b0 l"
+b0 r"
+b0 x"
+b0 ~"
+b0 &#
+b0 ,#
+b0 2#
+#30
+03
+09
+0?
+0E
+0K
+0Q
+0W
+0]
+0c
+0i
+0o
+0u
+0{
+0#"
+0)"
+0/"
+05"
+0;"
+0A"
+0G"
+0M"
+0S"
+0Y"
+0_"
+0e"
+0k"
+0q"
+0w"
+0}"
+0%#
+0+#
+b0 !
+b0 *
+b0 /
+01#
+b0 5
+b0 ;
+b0 A
+b0 G
+b0 M
+b0 S
+b0 Y
+b0 _
+b0 e
+b0 k
+b0 q
+b0 w
+b0 }
+b0 %"
+b0 +"
+b0 1"
+b0 7"
+b0 ="
+b0 C"
+b0 I"
+b0 O"
+b0 U"
+b0 ["
+b0 a"
+b0 g"
+b0 m"
+b0 s"
+b0 y"
+b0 !#
+b0 '#
+b0 -#
+b0 3#
+b1 %
+b1 (
+b1 .
+b1 4
+b1 :
+b1 @
+b1 F
+b1 L
+b1 R
+b1 X
+b1 ^
+b1 d
+b1 j
+b1 p
+b1 v
+b1 |
+b1 $"
+b1 *"
+b1 0"
+b1 6"
+b1 <"
+b1 B"
+b1 H"
+b1 N"
+b1 T"
+b1 Z"
+b1 `"
+b1 f"
+b1 l"
+b1 r"
+b1 x"
+b1 ~"
+b1 &#
+b1 ,#
+b1 2#
+#40
+13
+19
+1?
+1E
+1K
+1Q
+1W
+1]
+1u
+1Y"
+1q"
+1w"
+1}"
+1%#
+1+#
+b1111111111111111 !
+b1111111111111111 *
+b1111111111111111 /
+11#
+b100 5
+b100 ;
+b100 A
+b100 G
+b100 M
+b100 S
+b100 Y
+b100 _
+b100 w
+b100 ["
+b100 s"
+b100 y"
+b100 !#
+b100 '#
+b100 -#
+b100 3#
+b10 %
+b10 (
+b10 .
+b10 4
+b10 :
+b10 @
+b10 F
+b10 L
+b10 R
+b10 X
+b10 ^
+b10 d
+b10 j
+b10 p
+b10 v
+b10 |
+b10 $"
+b10 *"
+b10 0"
+b10 6"
+b10 <"
+b10 B"
+b10 H"
+b10 N"
+b10 T"
+b10 Z"
+b10 `"
+b10 f"
+b10 l"
+b10 r"
+b10 x"
+b10 ~"
+b10 &#
+b10 ,#
+b10 2#
+#50
+03
+09
+0?
+0E
+0K
+0Q
+0W
+0]
+0u
+0Y"
+0q"
+0w"
+0}"
+0%#
+0+#
+b0 !
+b0 *
+b0 /
+01#
+b0 5
+b0 ;
+b0 A
+b0 G
+b0 M
+b0 S
+b0 Y
+b0 _
+b0 w
+b0 ["
+b0 s"
+b0 y"
+b0 !#
+b0 '#
+b0 -#
+b0 3#
+b11 %
+b11 (
+b11 .
+b11 4
+b11 :
+b11 @
+b11 F
+b11 L
+b11 R
+b11 X
+b11 ^
+b11 d
+b11 j
+b11 p
+b11 v
+b11 |
+b11 $"
+b11 *"
+b11 0"
+b11 6"
+b11 <"
+b11 B"
+b11 H"
+b11 N"
+b11 T"
+b11 Z"
+b11 `"
+b11 f"
+b11 l"
+b11 r"
+b11 x"
+b11 ~"
+b11 &#
+b11 ,#
+b11 2#
